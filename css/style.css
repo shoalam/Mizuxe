@@ -1,0 +1,88 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+body{
+  margin-top: 100px;
+}
+html{
+  scroll-behavior: smooth;
+}
+.bg-primary{
+  background: #3292a6 ! important;
+}
+.btn-primary{
+  background: #3292a6 ! important;
+}
+.text-primary{
+  color: #3292a6 ! important;
+}
+.border-primary{
+  border: 1px solid #3292a6 ! important;
+}
+
+/* ===== Navbar CSS Start ===== */
+
+.navbar{
+  box-shadow: 2px 2px 5px #3292a6;
+  background: #fff;
+  opacity: 0.9;
+}
+.navbar .nav-item{
+  padding-right: 20px;
+  font-size: 20px;
+}
+.navbar .nav-item:last-child{
+    padding-right: 0;
+}
+/* .navbar .nav-link{
+  color: #252525 ! important;
+} */
+.navbar .nav-link:hover{
+  color: #3292a6 ! important;
+}
+
+/* ===== Navbar CSS End ===== */
+
+/* ===== Showcase Area CSS Start ===== */
+#showcase{
+  background: url(../img/mountains.jpg);
+  position: relative;
+  min-height: 600px;
+}
+#showcase .primary-overlay{
+  background: rgba(50, 146, 166, 0.8);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+@media(max-width: 768px){
+  #showcase{
+    min-height: 500px;
+  }
+  #showcase h1{
+    font-size: 48px;
+  }
+}
+/* ===== Showcase Area CSS End ===== */
+
+/* ===== Authors Area CSS Start ===== */
+
+#authors img {
+    margin-top: -60px;
+}
+#authors .card:hover {
+  background: #3292a6;
+  color: #fff;
+}
+#authors .card:hover .fa {
+  color: #fff;
+}
+#authors .fa {
+  color: #3292a6;
+  font-size: 22px;
+}
+/* ===== Authors Area CSS End ===== */
